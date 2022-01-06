@@ -1,4 +1,6 @@
-/* General/Reuseable Styles */
+/* ===========================
+General/Reuseable Styles
+============================== */
 * {
   margin: 0;
   padding: 0;
@@ -13,14 +15,26 @@ body {
 .sandy-brown {
   color: #ffad5a;
 }
-/* Header Section */
+a {
+  text-decoration: none;
+}
+.button {
+  font-size: 16px;
+  background-color: #ff5959;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+/* ==========================
+Header Section
+============================== */
 .header {
   display: flex;
   justify-content: space-around;
   padding: 86px 158px;
 }
 .header h1 {
-  font-size: 60px;
+  font-size: 3.75em;
   line-height: 80px;
   padding-left: 15px;
 }
@@ -32,12 +46,59 @@ body {
   background: #ff5959;
   position: absolute;
   left: 0;
-  top: 15px;
-  height: 124px;
+  top: 14.5px;
+  height: 125px;
   width: 4px;
   border-radius: 5px;
 }
 .header p {
   width: 480px;
-  margin-top: 20px;
+  margin: 17px 0 30px 0;
+  line-height: 1.6;
+}
+.header small {
+  display: block;
+  margin-top: 25px;
+  color: rgb(119, 119, 119);
+}
+/* ==========================
+My Mission Section
+============================== */
+.my-mission h1 {
+  color: #13103a;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.mission-article {
+  width: 300px;
+  padding: 20px 30px;
+
+  border-radius: 26px;
+}
+#mission-article1 {
+  background-color: #4f9da61a;
+}
+#mission-article2 {
+  background-color: #ff59591a;
+}
+#mission-article3 {
+  background-color: #fff4d6;
+}
+.mission-article img {
+  width: 130px;
+}
+.mission-article h2 {
+  padding: 20px 0;
+}
+.mission-article p {
+  font-size: 0.89rem;
+  line-height: 1.5;
+  padding-bottom: 15px;
+}
+.mission-article-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
