@@ -31,6 +31,13 @@ a {
 .medium-sized-image {
   width: 350px;
 }
+.general-heading {
+  color: #13103a;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
 /* ==========================
 Header Section
 ============================== */
@@ -70,13 +77,6 @@ Header Section
 /* ==========================
 My Mission Section
 ============================== */
-.my-mission h1 {
-  color: #13103a;
-  text-align: center;
-  font-size: 3rem;
-  font-weight: bold;
-  padding-bottom: 50px;
-}
 
 .mission-article {
   width: 300px;
@@ -140,4 +140,67 @@ Inspiration Blog Section
 }
 .text-wrapper-with-cta p {
   line-height: 1.5;
+}
+/* ==========================
+Portfolio Plan Section
+============================== */
+.portfolio-plan {
+  margin-top: 50px;
+}
+.portfolio-plan h2 {
+  text-align: center;
+  padding: 15px 0 90px 0;
+}
+#custom-heading {
+  padding-bottom: 10px;
+}
+.project {
+  width: 300px;
+}
+.project img {
+  width: 300px;
+  height: 250px;
+  filter: brightness(0.8);
+  border-radius: 20px;
+}
+.project img:hover {
+  filter: brightness(1);
+  cursor: pointer;
+}
+.project h3 {
+  text-align: center;
+  padding-top: 30px;
+  color: #13103a;
+  font-weight: 900;
+}
+.project p {
+  line-height: 1.8;
+  padding: 12px;
+  text-align: justify;
+}
+.project-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+/* ==========================
+Footer Section
+============================== */
+footer h1 {
+  font-family: "Courgette", cursive;
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+footer p {
+  font-size: 0.8rem;
+}
+footer {
+  color: white;
+  text-align: center;
+  background-color: #0b0d17;
+  padding: 35px 0;
+}
+.red-color {
+  color: #ff5959;
 }
