@@ -1,0 +1,43 @@
+/* General/Reuseable Styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+  font-family: "Domine", serif;
+}
+.block-display {
+  display: block;
+}
+.sandy-brown {
+  color: #ffad5a;
+}
+/* Header Section */
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 86px 158px;
+}
+.header h1 {
+  font-size: 60px;
+  line-height: 80px;
+  padding-left: 15px;
+}
+.heading-border {
+  position: relative;
+}
+.heading-border:before {
+  content: "";
+  background: #ff5959;
+  position: absolute;
+  left: 0;
+  top: 15px;
+  height: 124px;
+  width: 4px;
+  border-radius: 5px;
+}
+.header p {
+  width: 480px;
+  margin-top: 20px;
+}
